@@ -76,7 +76,7 @@ class _ButtonsFragmentState extends State<ButtonsFragment> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8.0),
               child: Image.asset(
-                'assets/images/google_logo.png', // Replace with your image asset
+                '/Users/chrissantfdz/Desktop/Practica1-Moviles/Flutter/practica1/lib/fragments/image.png', // Replace with your image asset
                 width: 50,
                 height: 50,
                 fit: BoxFit.cover,
