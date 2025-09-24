@@ -57,9 +57,15 @@ A continuación, se detalla cada widget de pantalla y los archivos que lo compon
 
 Aquí puedes agregar capturas de pantalla de tu aplicación para que otros puedan ver cómo se ve en acción.
 
-![Captura de pantalla de la pantalla Text Fields](https://i.imgur.com/your_textfields_screenshot.png)
-![Captura de pantalla de la pantalla Buttons](https://i.imgur.com/your_buttons_screenshot.png)
-![Captura de pantalla de la pantalla Selection](https://i.imgur.com/your_selection_screenshot.png)
+<img width="1206" height="2622" alt="Image" src="https://github.com/user-attachments/assets/26ca3030-a290-403b-934e-f84a97ccb0c5" />
+<img width="1206" height="2622" alt="Image" src="https://github.com/user-attachments/assets/2e567908-9751-4e65-98d5-24b684a27705" />
+<img width="1206" height="2622" alt="Image" src="https://github.com/user-attachments/assets/25c42206-778a-49b4-a983-8ea7b2cc41dd" />
+<img width="1206" height="2622" alt="Image" src="https://github.com/user-attachments/assets/4af4249b-29e2-47af-abb1-0d9c8e6e2bce" />
+<img width="1206" height="2622" alt="Image" src="https://github.com/user-attachments/assets/c2debdbe-4b95-4f21-a516-5266ebd90958" />
+<img width="1206" height="2622" alt="Image" src="https://github.com/user-attachments/assets/0ac0625f-ec35-4c5b-8644-78f9fff33090" />
+<img width="1206" height="2622" alt="Image" src="https://github.com/user-attachments/assets/0f1dd6a5-0c78-4770-8879-b072f5b3d0a4" />
+<img width="1206" height="2622" alt="Image" src="https://github.com/user-attachments/assets/6dcd9c6e-7af7-4653-9e42-f27c57615214" />
+<img width="1206" height="2622" alt="Image" src="https://github.com/user-attachments/assets/3221e9d4-a27a-480a-8e38-a97b50f5e1e9" />
 
 *Nota: Reemplaza los enlaces de las imágenes con las URLs reales de tus capturas de pantalla.*
 
