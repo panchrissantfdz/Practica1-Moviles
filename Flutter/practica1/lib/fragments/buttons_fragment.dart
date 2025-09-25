@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practica1/second_screen.dart';
 
 class ButtonsFragment extends StatefulWidget {
   const ButtonsFragment({Key? key}) : super(key: key);
@@ -6,6 +7,8 @@ class ButtonsFragment extends StatefulWidget {
   @override
   State<ButtonsFragment> createState() => _ButtonsFragmentState();
 }
+
+// Modificación del archivo buttons_fragment.dart
 
 class _ButtonsFragmentState extends State<ButtonsFragment> {
   String _message = "Presiona un botón para ver la acción.";
@@ -16,6 +19,14 @@ class _ButtonsFragmentState extends State<ButtonsFragment> {
     });
   }
 
+  // Nuevo método para navegar
+  void _goToSecondScreen(BuildContext context) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const SecondScreen()),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -23,69 +34,8 @@ class _ButtonsFragmentState extends State<ButtonsFragment> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // 📝 Title and explanation
-          const Text(
-            '📝 Botones (Button, ImageButton)',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 8),
-          const Text(
-            'Los botones son elementos interactivos que el usuario puede presionar para ejecutar una acción, como enviar un formulario, navegar a otra pantalla o realizar un cálculo. Hay varios estilos para diferentes propósitos.',
-            style: TextStyle(fontSize: 16),
-          ),
-          const SizedBox(height: 24),
-          
-          // 🎨 Visual Examples
-          const Text(
-            '🎨 Ejemplos Visuales',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 16),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              // ElevatedButton
-              ElevatedButton(
-                onPressed: () {},
-                child: const Text('Elevated'),
-              ),
-              // TextButton
-              TextButton(
-                onPressed: () {},
-                child: const Text('Text'),
-              ),
-              // OutlinedButton
-              OutlinedButton(
-                onPressed: () {},
-                child: const Text('Outlined'),
-              ),
-              // IconButton
-              IconButton(
-                icon: const Icon(Icons.favorite),
-                onPressed: () {},
-                color: Colors.red,
-                tooltip: 'Me gusta',
-              ),
-            ],
-          ),
-          const SizedBox(height: 16),
-          
-          // An ImageButton-like example
-          GestureDetector(
-            onTap: () {},
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(8.0),
-              child: Image.asset(
-                '/Users/chrissantfdz/Desktop/Practica1-Moviles/Flutter/practica1/lib/fragments/image.png', // Replace with your image asset
-                width: 50,
-                height: 50,
-                fit: BoxFit.cover,
-              ),
-            ),
-          ),
-          const SizedBox(height: 16),
-          
-          // ⚡ Interactive Demonstration
+          // ... Código existente del fragmento
+          // ⚡ Demostración Interactiva
           const Text(
             '⚡ Demostración Interactiva',
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -99,6 +49,12 @@ class _ButtonsFragmentState extends State<ButtonsFragment> {
           TextButton(
             onPressed: () => _onButtonPressed('TextButton'),
             child: const Text('O Aquí'),
+          ),
+          const SizedBox(height: 16),
+          // Nuevo botón para navegar a la segunda pantalla
+          ElevatedButton(
+            onPressed: () => _goToSecondScreen(context), // Llama a la función de navegación
+            child: const Text('Ir a Segunda Pantalla'),
           ),
           const SizedBox(height: 16),
           

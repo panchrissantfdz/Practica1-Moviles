@@ -4,6 +4,7 @@ import 'fragments/buttons_fragment.dart';
 import 'fragments/selection_elements_fragment.dart';
 import 'fragments/lists_fragment.dart';
 import 'fragments/information_elements_fragment.dart';
+import 'package:practica1/second_screen.dart';
 
 
 void main() {
